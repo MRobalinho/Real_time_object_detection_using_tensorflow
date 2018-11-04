@@ -1,0 +1,72 @@
+Real-time and video processing object detection using Tensorflow, OpenCV and Docker.
+
+https://towardsdatascience.com/real-time-and-video-processing-object-detection-using-tensorflow-opencv-and-docker-2be1694726e5
+
+1. Clone Git repository
+https://github.com/lbeaucourt/Object-detection
+ 
+2.Install Docker
+A plataform for developers that are building containerized applications.
+It is a native Windows application that provides an easy-to-use development environment for building, shipping, and running dockerized apps
+https://www.docker.com/products/docker-desktop
+https://store.docker.com/editions/community/docker-ce-desktop-windows
+
+3. Build docker image:
+docker build -t realtime-objectdetection .
+
+4. Configure script (see bellow)
+
+Launch script:
+
+bash runDocker.sh
+
+5. Configuring
+Configuration is made in exec.sh at python function call:
+All possible arguments are:
+
+	-n (--num-frames): type=int, default=0: # of frames to loop over for FPS test
+
+	-d (--display), type=int, default=0: Whether or not frames should be displayed
+
+	-o (--output), type=int, default=0: Whether or not modified videos shall be writen
+
+	-on (--output-name), type=str, default="output": Name of the output video file
+
+	-I (--input-device), type=int, default=0: Device number input
+
+	-i (--input-videos), type=str, default="": Path to videos input, overwrite device input if used
+
+	-w (--num-workers), type=int, default=2: Number of workers
+
+	-q-size (--queue-size), type=int, default=5: Size of the queue
+
+	-l (--logger-debug), type=int, default=0: Print logger debug
+
+5 Suggested numbers of workers and queues size:
+
+Webcam stream: default values
+	** Video stream: 20 workers, 150 queue size (Maybe little hand tunning could be done)
+	** Inputs file are in inputs/ folder
+
+Outputs file are in outputs/ folder (.avi)
+
+
+Example from Tensorflow Video-Detection
+https://towardsdatascience.com/building-a-real-time-object-recognition-app-with-tensorflow-and-opencv-b7a2b4ebdc32
+https://github.com/tensorflow/models/blob/master/research/object_detection/object_detection_tutorial.ipynb
+
+Research
+https://www.pyimagesearch.com/2015/12/21/increasing-webcam-fps-with-python-and-opencv/
+
+Pre-trained models Tensorflow detection model zoo- COCO Dataset
+provide a collection of detection models pre-trained on the COCO dataset. 
+These models can be useful for out-of-the-box inference if you are interested in categories already 
+in COCO (e.g., humans, cars, etc). They are also useful for initializing your models when training on novel datasets.
+https://github.com/tensorflow/models/blob/477ed41e7e4e8a8443bc633846eb01e2182dc68a/object_detection/g3doc/detection_model_zoo.md
+
+
+Instalar a virtualização
+Consultar:  https://docs.microsoft.com/pt-br/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
+No Windows
+Powershell (executar como administrador)
+>DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
