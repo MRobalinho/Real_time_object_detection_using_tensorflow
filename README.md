@@ -19,3 +19,5 @@ https://towardsdatascience.com/real-time-and-video-processing-object-detection-u
 in COCO (e.g., humans, cars, etc). They are also useful for initializing your models when training on novel datasets.
 <br/>https://github.com/tensorflow/models/blob/477ed41e7e4e8a8443bc633846eb01e2182dc68a/object_detection/g3doc/detection_model_zoo.md
 
+<b>Video With my Example:<b/>
+<br/>https://youtu.be/zuY0BeTELt4
