@@ -20,4 +20,11 @@ in COCO (e.g., humans, cars, etc). They are also useful for initializing your mo
 <br/>https://github.com/tensorflow/models/blob/477ed41e7e4e8a8443bc633846eb01e2182dc68a/object_detection/g3doc/detection_model_zoo.md
 
 <b>Video With my Example:<b/>
+  
+# Include Video at Github Readme
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/zuY0BeTELt4/0.jpg)]
+(http://www.youtube.com/watch?v=zuY0BeTELt4E "Realtime object detection")
+
+# Include Image on Github Readme
+![](image/3037726_Oxford_Street.jpg_output.jpg?raw=true)
 <br/>https://youtu.be/zuY0BeTELt4
