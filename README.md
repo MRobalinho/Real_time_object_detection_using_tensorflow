@@ -21,7 +21,6 @@ in COCO (e.g., humans, cars, etc). They are also useful for initializing your mo
 
 <b>Video With my Example:<b/>
 <br/>
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/zuY0BeTELt4/0.jpg)]
-(http://www.youtube.com/watch?v=zuY0BeTELt4E "Realtime object detection")
-
-
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/zuY0BeTELt4/0.jpg)](http://www.youtube.com/watch?v=zuY0BeTELt4E "Realtime object detection")
+<br/>
+http://www.youtube.com/watch?v=zuY0BeTELt4E
