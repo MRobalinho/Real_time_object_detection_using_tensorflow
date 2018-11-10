@@ -1,4 +1,4 @@
-# Real_time_object_detection_using_tensorflow
+# Real time object detection using tensorflow
 
 ## Real-time and video processing object detection using Tensorflow, OpenCV and Docker.
 
