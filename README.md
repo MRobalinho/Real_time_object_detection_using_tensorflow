@@ -29,5 +29,7 @@ http://www.youtube.com/watch?v=zuY0BeTELt4E
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/T32nUN8pM6Y/0.jpg)](http://www.youtube.com/watch?v=T32nUN8pM6Y "Realtime object detection on Traffic")
 
-<br/>  
+<br/> 
+Example on traffic in Fortaleza City, on 17-11-2018.
+<br/> 
 https://youtu.be/T32nUN8pM6Y
