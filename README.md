@@ -26,6 +26,8 @@ in COCO (e.g., humans, cars, etc). They are also useful for initializing your mo
 http://www.youtube.com/watch?v=zuY0BeTELt4E
   
 <br/>
+
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/T32nUN8pM6Y/0.jpg)](http://www.youtube.com/watch?v=T32nUN8pM6Y "Realtime object detection on Traffic")
+
 <br/>  
 https://youtu.be/T32nUN8pM6Y
